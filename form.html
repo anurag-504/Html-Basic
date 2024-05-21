@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h2>FILL UP THIS FORM</h2>
+    <form action="backend.php">
+        <div>
+            NAME: <input type="text" name="name" placeholder="Enter Your Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="CLASS: " required>CLASS: </label>
+            <select name="CLASS: " id="CLASS: ">
+                <option value="select">select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            SCHOLAR NO .: <input type="number" name="scholar" placeholder="Enter Your scholar no." required>
+        </div>
+        <br>
+        <div>
+            MOBILE NO .: <input type="number" name="mobile" placeholder="Enter Your  mobile no." required>
+        </div>
+        <br>
+        <div>
+            DATE OF BIRTH.: <input type="date" name="dob" required>
+        </div>
+        <br>
+        <div>
+            EMAIL ID : <input type="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            GENDER : Male <input type="radio" name="my gender"> Female <input type="radio" name="my gender">
+        </div>
+        <br>
+        <div>
+            Choose  file : <input type="file">
+        </div>
+        <br>
+        <div>
+            Are you eligible : Yes <input type="radio" name="eligible"> No <input type="radio" name="eligible">
+        </div>
+        <br>
+        <div>
+            WRITE OTHER QUERY : <textarea name="write query" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>  
+            <input type="reset" value="Reset">
+        </div>
+         <br>
+        
+    </form>
+</body>
+
+</html>
